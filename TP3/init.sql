@@ -1,0 +1,8 @@
+CREATE DATABASE IF NOT EXISTS bdiwm2024;
+
+CREATE TABLE IF NOT EXISTS etudiants (
+    code VARCHAR(255) PRIMARY KEY,
+    nom VARCHAR(255),
+    ville VARCHAR(255),
+    age INT
+);
